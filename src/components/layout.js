@@ -22,12 +22,12 @@ const Layout = ({ location, children }) => {
   return (
     <div className="layout" data-is-root-path={isRootPath}>
       <header className="site-header container">
-        <div className="logo"><Link to="/">Juneate</Link></div>
+        <div className="logo"><Link to="/">Keerthivasan  Kumar</Link></div>
       </header>
       <main className="site-main container">{children}</main>
       <footer className="site-footer">
         <div className="container">
-          <p>Copyright © {new Date().getFullYear()}, Rocco Panacci.</p>
+          <p>Copyright © {new Date().getFullYear()}, Keerthivasan Kumar.</p>
           <ul>
             <li><a href={`http://twitter.com/${twitter}`}>{`@${twitter}`}</a></li>
           </ul>
